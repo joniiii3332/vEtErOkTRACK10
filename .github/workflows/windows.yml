@@ -23,7 +23,7 @@ jobs:
 
       - name: Build EXE
         run: |
-          pyinstaller --clean --noconfirm --onefile --windowed --name vEtErOkTRACK10 --add-data "music.mp3;." joniii.py
+        pyinstaller --clean --noconfirm --onefile --windowed --name vEtErOkTRACK10 --add-data "music.mp3;." joniiiiii.py
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
